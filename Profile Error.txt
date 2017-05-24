@@ -1,0 +1,30 @@
+Profile Error
+
+Log in as Local Admin
+
+Go to the Network Pane of System Preferences
+
+From the Location pull down at the top of the screen, select “Edit locations”
+
+Click the “+” icon in the lower left corner, name the location something unique, then click Done
+
+Select the new location from the drop down.
+
+From the list on the left of the main Network pane, use the “-“ key to remove all connection methods other than the one you are using to connect to the TE network.
+
+Select the last network connection from the list on the left and click “Advanced”
+
+On the Proxies tab, check the box for “Automatic Proxy Configuration”, then enter the following information in the URL field on the right: 
+http://proxy.tycoelectronics.com/auto.proxy
+
+Click “OK” to return to the main Network Pane, then click “Apply”, you can now quit System Preferences
+
+Open Safari and navigate to a both an internal and external site
+For internal, I would suggest a page that requests authentication, such as a TE Sharepoint site, like the MyTE portal or Mac@Work site.
+For external, I would suggest attempting a search using a major search engine like Bing or Google.
+
+You should be prompted for authentication to the proxy environment, enter your TE credentials.
+
+Once the Sharepoint page loads completely, quit Safari and launch TEMPO 2.0
+
+Before returning the device to regular operation, you should change the location setting in System Preferences back to its previous selection.
